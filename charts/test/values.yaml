@@ -1,0 +1,19 @@
+# Default values for test.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: uhub.service.ucloud.cn/wxyz/centos
+  tag: 7
+  pullPolicy: IfNotPresent
+
+command: 
+- sleep
+- "36000" 
+
+service:
+  type: ClusterIP
+  port: 80
+

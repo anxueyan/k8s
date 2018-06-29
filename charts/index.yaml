@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  test:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-06-29T14:34:08.904196578+08:00
+    description: A Helm chart for Kubernetes
+    digest: 00cbcbbddf1819aca4cb278d0be8dcc5b7cab315d6e0b61bff983ba3b604e5ad
+    name: test
+    urls:
+    - https://anxueyan.github.io/k8s/test-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-06-29T14:34:08.903182101+08:00
